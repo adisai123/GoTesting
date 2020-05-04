@@ -15,3 +15,20 @@ For go in-built unit testing steps:
 Commands using with this project
 
     1.  go test -cover     (inside folder)
+    2.   go test -bench=.
+
+Benchmark:
+    Create function Name starting with Benchmark (example:
+    func BenchmarkSort(t *testing.B){  for i = 0 ; i < b.N ; i++{} })
+
+    aditya@aditya-nupur:~/GOProjects/Aditya/src/mygo/testinggo/GoTesting/src/api/services$ go test -bench=.
+    [1 2 2 2 3 3 4 4 4 5]
+    goos: linux
+    goarch: amd64
+    pkg: mygo/testinggo/GoTesting/src/api/services
+    BenchmarkSort-4          2894872               402 ns/op
+    PASS
+    ok      mygo/testinggo/GoTesting/src/api/services       1.592s
+            
+
+
