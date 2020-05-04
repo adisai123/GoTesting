@@ -3,12 +3,15 @@ package sort
 import (
 	"fmt"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
 func TestBubbleSortNoError(t *testing.T) {
 	elements := []int{9, 8, 7, 6, 5, 4, 3, 2, 1}
 	Bubblesort(elements)
 	fmt.Println(elements)
+	assert.NotNil(t, elements)
 	//validation
 	if elements[0] == 9 {
 		t.Error("first element should not be 9")

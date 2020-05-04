@@ -8,6 +8,7 @@ const (
 
 func Sort(Elements []int) {
 	//sort.Bubblesort(Elements)
+
 	sort.Sort(Elements)
 }
 
