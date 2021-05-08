@@ -31,4 +31,7 @@ Benchmark:
     ok      mygo/testinggo/GoTesting/src/api/services       1.592s
             
 
+----------------------------------------
 
+Value Type - int float string bool struct 
+Reference type -  slices maps channels pointers functions 
