@@ -29,9 +29,3 @@ Benchmark:
     BenchmarkSort-4          2894872               402 ns/op
     PASS
     ok      mygo/testinggo/GoTesting/src/api/services       1.592s
-            
-
-----------------------------------------
-
-Value Type - int float string bool struct 
-Reference type -  slices maps channels pointers functions 
